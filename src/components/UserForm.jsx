@@ -2,7 +2,7 @@ const userForm = () => {
   return (
     <>
       <div className='form-control'>
-        <label htmlFor='iname'>Nome</label>
+        <label htmlFor='iname'>Nome:</label>
         <input
           type='text'
           name='name'
@@ -12,7 +12,7 @@ const userForm = () => {
         />
       </div>
       <div className='form-control'>
-        <label htmlFor='iemail'>E-mail</label>
+        <label htmlFor='iemail'>E-mail:</label>
         <input
           type='email'
           name='email'

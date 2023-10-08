@@ -7,7 +7,7 @@ const Steps = ({ currentStep }) => {
     <div className='steps'>
       <div className='step active'>
         <AiOutlineUser />
-        <p>Indentificação</p>
+        <p>Identificação</p>
       </div>
       <div className={`step ${currentStep >= 1 ? 'active' : ''}`}>
         <AiOutlineStar />
