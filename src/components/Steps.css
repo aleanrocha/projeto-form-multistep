@@ -1,0 +1,27 @@
+.steps {
+  display: flex;
+  max-width: 400px;
+  margin: auto;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.step {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .2rem;
+  z-index: 1;
+  width: 120px;
+}
+.step svg {
+  font-size: 1.6rem;
+}
+.active {
+  font-weight: bold;
+}
+.active > svg {
+  fill: #29b178;
+}
