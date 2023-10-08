@@ -1,0 +1,79 @@
+.app {
+  padding: 2rem;
+}
+
+/* Cabeçalho */
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Forms */
+
+.form-container {
+  background-color: #fff;
+  width: 95%;
+  max-width: 600px;
+  margin: auto;
+  padding: 1.5rem;
+  box-shadow: rgba(100, 100, 111, .2) 0px 7px 20px 0px;
+  border-radius: 1rem;
+}
+.form-container form {
+  max-width: 400px;
+  margin: auto;
+}
+.inputs-container {
+  min-height: 280px;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  margin-bottom: 1.5rem;
+}
+.form-control label {
+  font-weight: bold;
+  cursor: pointer;
+  color: #777;
+}
+.form-control input,
+.form-control textarea {
+  padding: .8rem;
+  border: none;
+  outline: none;
+  box-shadow: rgba(99, 99, 99, .2) 0px 2px 8px 0px;
+  border-radius: .3rem;
+}
+.form-control textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* Actions */
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.actions button {
+  background-color: #dfdfdf;
+  padding: .8rem 1.5rem;
+  border: none;
+  border-radius: .3rem;
+  font-size: .9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+  transition: .3s;
+}
+.actions button:hover {
+  background-color: #cfcfcf;
+}

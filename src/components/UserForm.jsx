@@ -1,6 +1,27 @@
 const userForm = () => {
   return (
-    <div><h2>userForm</h2></div>
+    <>
+      <div className='form-control'>
+        <label htmlFor='iname'>Nome</label>
+        <input
+          type='text'
+          name='name'
+          id='iname'
+          placeholder='Digite seu nome'
+          required
+        />
+      </div>
+      <div className='form-control'>
+        <label htmlFor='iemail'>E-mail</label>
+        <input
+          type='email'
+          name='email'
+          id='iemail'
+          placeholder='Digite seu e-mail'
+          required
+        />
+      </div>
+    </>
   )
 }
 

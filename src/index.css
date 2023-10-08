@@ -6,3 +6,8 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
+
+body {
+  background-color: #f9fafc;
+  color: #333;
+}
