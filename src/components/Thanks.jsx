@@ -7,10 +7,10 @@ import {
 import './Thanks.css'
 const Thanks = ({ data }) => {
   const emojiData = {
-    unsatisfied: <BsFillEmojiFrownFill />,
-    neutral: <BsFillEmojiNeutralFill />,
-    satisfied: <BsFillEmojiSmileFill />,
-    very_satisfied: <BsFillEmojiHeartEyesFill />
+    unsatisfied: <BsFillEmojiFrownFill id='unsatisfied' />,
+    neutral: <BsFillEmojiNeutralFill id='neutral' />,
+    satisfied: <BsFillEmojiSmileFill id='satisfied' />,
+    very_satisfied: <BsFillEmojiHeartEyesFill id='very_satisfied' />
   }
   return (
     <div className='thanks-container'>

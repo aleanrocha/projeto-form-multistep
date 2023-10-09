@@ -13,6 +13,8 @@
 }
 .review-data {
   text-align: left;
+  display: flex;
+  align-items: center;
 }
 .review-data svg {
   margin-left: 5px;
@@ -20,3 +22,7 @@
 .review-data span {
   font-weight: bold;
 }
+.review-data #unsatisfied {fill: #d30f0f;}
+.review-data #neutral {fill: #f05e09;}
+.review-data #satisfied {fill: #88d30f;}
+.review-data #very_satisfied {fill: #29b178;}
