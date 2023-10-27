@@ -1,8 +1,25 @@
-# React + Vite
+# Projeto Formulário de múltiplos passos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Screenshot from 2023-10-27 10-20-16](https://github.com/aleanrocha/projeto-form-multistep/assets/109040443/296d52fa-13c8-43d2-8867-d75aca340794)
 
-Currently, two official plugins are available:
+## Visualizar 🔎
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div>
+  <a href="https://aleanrocha.github.io/projeto-form-multistep/"><img alt"img-ver" src="https://img.shields.io/badge/Ver Projeto-262577?style=for-the-badge&logo=Ver&logoColor=white"></a>
+</div>
+
+## Tecnologias 🚀
+
+Esse projeto foi desenvolvido com as tecnologias citadas abaixo
+
+- ✅ HTML
+- ✅ CSS
+- ✅ JAVASCRIPT
+- ✅ REACT
+
+## Licença ⚠️
+
+Esse projeto está sob a licença MIT.
+
+
+
